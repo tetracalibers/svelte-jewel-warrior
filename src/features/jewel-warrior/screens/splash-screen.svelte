@@ -1,5 +1,15 @@
-<script lang="ts">
-  export let classNames: string[] = []
+<script>
+  export let active = false
 </script>
 
-<div class={classNames.join(' ')} />
+<div class:active class="screen" />
+
+<style>
+  .screen {
+    display: none;
+  }
+
+  .screen.active {
+    display: block;
+  }
+</style>

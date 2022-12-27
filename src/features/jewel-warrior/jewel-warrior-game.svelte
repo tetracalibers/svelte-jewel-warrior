@@ -6,7 +6,7 @@
 </script>
 
 <div class="z-stack-screens">
-  <SplashScreen />
+  <SplashScreen active={true} />
   <MainMenu />
   <GameScreen />
   <HighScores />
@@ -25,11 +25,6 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    display: none;
     z-index: 10;
-  }
-
-  .z-stack-screens :global(> *.active) {
-    display: block;
   }
 </style>
