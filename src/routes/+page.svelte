@@ -1,5 +1,5 @@
 <script>
-  import JewelWarriorGame from 'src/features/jewel-warrior/jewel-warrior-game.svelte'
+  import JewelWarriorGame from '@/features/jewel-warrior/jewel-warrior-game.svelte'
 </script>
 
 <svelte:head>
