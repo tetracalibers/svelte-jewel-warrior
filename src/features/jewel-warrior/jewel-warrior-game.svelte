@@ -15,6 +15,9 @@
 <style>
   .game {
     font-family: 'Geo';
+    font-size: 40px;
+    width: 8em;
+    height: 12em;
     color: rgb(200, 200, 100);
     background-color: rgb(30, 30, 30);
   }
