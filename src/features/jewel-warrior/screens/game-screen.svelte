@@ -1,15 +1,7 @@
 <script>
+  import Screen from './screen.svelte'
+
   export let active = false
 </script>
 
-<div class:active class="screen" />
-
-<style>
-  .screen {
-    display: none;
-  }
-
-  .screen.active {
-    display: block;
-  }
-</style>
+<Screen {active} />
