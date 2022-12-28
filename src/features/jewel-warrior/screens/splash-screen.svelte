@@ -7,7 +7,9 @@
 <Screen active={$activeScreen === 'splash-screen'}>
   <section class="screen-content">
     <Logo headingLevel={1} />
-    <button type="button" class="continue-button">Click to continue</button>
+    <button type="button" class="continue-button" on:click={activeScreen.toMainMenu}>
+      Click to continue
+    </button>
   </section>
 </Screen>
 
