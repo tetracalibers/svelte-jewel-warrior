@@ -4,6 +4,7 @@
 
 <svelte:head>
   <title>Jewel Warrior</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
 </svelte:head>
 
 <JewelWarriorGame />
