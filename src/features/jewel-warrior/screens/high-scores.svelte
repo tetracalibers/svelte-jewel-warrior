@@ -1,7 +1,6 @@
 <script>
   import Screen from './screen.svelte'
-
-  export let active = false
+  import { activeScreen } from './screens.store'
 </script>
 
-<Screen {active} />
+<Screen active={$activeScreen === 'high-scores'} />

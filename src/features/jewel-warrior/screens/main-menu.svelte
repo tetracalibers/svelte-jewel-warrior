@@ -1,8 +1,7 @@
 <script lang="ts">
   import Logo from '../components/logo.svelte'
   import Screen from './screen.svelte'
-
-  export let active = false
+  import { activeScreen } from './screens.store'
 
   interface MenuItem {
     label: string
@@ -29,7 +28,7 @@
   ]
 </script>
 
-<Screen {active}>
+<Screen active={$activeScreen === 'main-menu'}>
   <section class="screen-content">
     <Logo headingLevel={2} />
     <ul class="menu">

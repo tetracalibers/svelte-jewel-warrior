@@ -1,11 +1,10 @@
 <script>
   import Logo from '../components/logo.svelte'
   import Screen from './screen.svelte'
-
-  export let active = false
+  import { activeScreen } from './screens.store'
 </script>
 
-<Screen {active}>
+<Screen active={$activeScreen === 'splash-screen'}>
   <section class="screen-content">
     <Logo headingLevel={1} />
     <button type="button" class="continue-button">Click to continue</button>

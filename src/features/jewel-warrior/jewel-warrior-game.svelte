@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import GameScreen from './screens/game-screen.svelte'
   import HighScores from './screens/high-scores.svelte'
   import MainMenu from './screens/main-menu.svelte'
@@ -6,7 +6,7 @@
 </script>
 
 <div class="z-stack-screens game">
-  <SplashScreen active={true} />
+  <SplashScreen />
   <MainMenu />
   <GameScreen />
   <HighScores />
