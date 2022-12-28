@@ -74,4 +74,34 @@
     color: rgb(255, 255, 0);
     background: rgb(30, 40, 0);
   }
+
+  /** 横長 */
+  @media (orientation: landscape) {
+    .screen-content {
+      font-size: 1em;
+      padding-top: 7.5em;
+    }
+    .menuitem {
+      display: inline-block;
+      margin: 0;
+    }
+    .action-button {
+      margin: 0.5em;
+      font-size: 0.5em;
+    }
+
+    /** 小さい画面 */
+    @media (max-device-width: 480px) {
+      .action-button {
+        font-size: 0.4em;
+      }
+    }
+
+    /** タブレット */
+    @media (min-device-width: 768px) {
+      .screen-content {
+        padding-top: 1.5em;
+      }
+    }
+  }
 </style>
