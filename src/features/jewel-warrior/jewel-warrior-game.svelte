@@ -7,7 +7,8 @@
   import SplashScreen from './screens/splash-screen.svelte'
 
   onMount(() => {
-    disableOverScroll()
+    const fn = disableOverScroll()
+    return () => fn()
   })
 </script>
 
