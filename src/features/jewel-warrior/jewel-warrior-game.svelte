@@ -5,7 +5,7 @@
   import SplashScreen from './screens/splash-screen.svelte'
 </script>
 
-<div class="z-stack-screens game">
+<div class="z-stack-screens game-root">
   <SplashScreen />
   <MainMenu />
   <GameScreen />
@@ -13,7 +13,7 @@
 </div>
 
 <style>
-  .game {
+  .game-root {
     font-family: 'Geo';
     font-size: 40px;
     width: 8em;
