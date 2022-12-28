@@ -25,7 +25,5 @@
   .z-stack-screens {
     position: absolute;
     inset: 0;
-    width: 320px;
-    height: 480px;
   }
 </style>
