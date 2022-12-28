@@ -3,8 +3,9 @@
 </script>
 
 <svelte:head>
-  <title>Jewel Warrior</title>
   <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <title>Jewel Warrior</title>
 </svelte:head>
 
 <JewelWarriorGame />
