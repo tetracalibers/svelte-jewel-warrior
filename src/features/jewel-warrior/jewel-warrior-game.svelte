@@ -20,6 +20,11 @@
 </div>
 
 <style>
+  :global(body) {
+    user-select: none;
+    text-size-adjust: none; /** テキストサイズ自動調整無効化 */
+  }
+
   .game-root {
     font-family: 'Geo';
     font-size: 40px;
