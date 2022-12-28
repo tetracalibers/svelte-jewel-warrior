@@ -1,8 +1,14 @@
 <script lang="ts">
+  import { disableOverScroll } from '@/lib/mobile'
+  import { onMount } from 'svelte'
   import GameScreen from './screens/game-screen.svelte'
   import HighScores from './screens/high-scores.svelte'
   import MainMenu from './screens/main-menu.svelte'
   import SplashScreen from './screens/splash-screen.svelte'
+
+  onMount(() => {
+    disableOverScroll()
+  })
 </script>
 
 <div class="z-stack-screens game-root">
