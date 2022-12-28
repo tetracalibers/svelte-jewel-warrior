@@ -1,7 +1,7 @@
 <script lang="ts">
   import Logo from '../components/logo.svelte'
-  import Screen from './screen.svelte'
-  import { activeScreen } from './screen.store'
+  import Screen from './base/screen.svelte'
+  import { activeScreen } from './base/screen.store'
 
   interface MenuItem {
     label: string
